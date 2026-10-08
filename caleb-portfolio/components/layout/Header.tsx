@@ -38,8 +38,8 @@ export default function Header() {
   
   return (
     <header className={`sticky top-0 z-50 px-4 py-4 transition-transform duration-300 motion-reduce:transition-none sm:px-6 sm:py-6 ${
-    hidden ? "-translate-y-full" : "translate-y-0"
-    }`}>
+      hidden ? "-translate-y-full" : "translate-y-0"
+      }`}>
       <div className="mx-auto max-w-7xl bg-neutral-100 px-5 py-4  sm:px-8">
 
         {/* Desktop / Mobile top bar */}
